@@ -1,0 +1,13 @@
+/* Custom CSS for Background Image with Gradient Overlay */
+.main-container {
+    /* Background Image - Replace 'background.jpg' with your image file */
+    background-image: 
+        /* Orange-ish gradient overlay */
+        linear-gradient(to top, rgba(255, 235, 215, 0.7), rgba(253, 245, 230, 0.7)),
+        /* Your background image */
+        url('background.jpg');
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
